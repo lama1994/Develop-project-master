@@ -81,6 +81,7 @@ html {
     text-decoration: none;
     color: #0c1753;
     opacity: 1;
+    font-family: 'Quicksand';
     transition: opacity 0.5s ease-in-out; }
   
   .nav__link:hover {

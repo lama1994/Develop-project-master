@@ -185,7 +185,9 @@ html {
     width: 100vw; }
   
   .blue {
-    background: #4d88cc; }
+   /* background: #4d88cc; */
+    background-image: linear-gradient(to bottom right,#6d6688, #c8bcf8);
+  }
   
   .black {
     background: #292f36; }

@@ -190,11 +190,12 @@ html {
     background-image: linear-gradient(to bottom right,#6d6688, #c8bcf8);
   }
   
-  .black {
-    background: #292f36; }
-  
   .white {
-    background: white; }
+    background: #ffffff; 
+    height: 300vh;}
+  
+  .darkblue {
+    background: #0c1753; }
   
     img {
       max-width: 100%

@@ -24,7 +24,7 @@ html {
   ol, ul {
     list-style: none; }
   
-  img {
+  /*img {
     max-width: 100%;
     height: auto; }
   
@@ -202,7 +202,7 @@ html {
     background: #ece7fc;
   }
     img {
-      max-width: 100%
+      max-width: 50%
     }
     .image {
       flex-basis: 80%;
@@ -223,6 +223,59 @@ html {
       margin-bottom: 40px;
       color: #00a69c;
     }
+    * {
+      box-sizing: border-box;
+    }
+    /* Float four columns side by side */
+.column {
+  float: left;
+  width: 33%;
+  padding: 0 5px;
+
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+.ux ,.front ,.support{
+  width:"150" ;
+  height:"150" ;
+}
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+  margin: 40px;
+}
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: #bgfee55f;
+  border-radius: 50%;
+}
+section-2-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
    /* .text-more{
       margin-left: 200px;
       padding-left: 70px;
